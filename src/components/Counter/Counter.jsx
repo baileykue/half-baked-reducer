@@ -19,7 +19,7 @@ export default function Counter() {
     }
   }
 
-  const initialCount = { count: 0, color: `rgb(236, 72, 153)` }
+  const initialCount = { count: 0, color: pinkRGB }
 
   const countReducer = (state, action) => {
     switch (action.type) {
